@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources\input">
+      <UniqueIdentifier>{44a21cf0-1486-4215-b192-ce15a5d70fc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers de ressources\output">
+      <UniqueIdentifier>{cde707fe-c19d-4d34-9a8e-296a990c4cb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers de ressources\img">
+      <UniqueIdentifier>{f5cf7059-4c5e-461a-b97b-dc7f989b9c69}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="main.m">
+      <Filter>Fichiers de ressources</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="input\input_5_10.000000_10.000000.txt">
+      <Filter>Fichiers de ressources\input</Filter>
+    </Text>
+    <Text Include="input\input_10_10.000000_10.000000.txt">
+      <Filter>Fichiers de ressources\input</Filter>
+    </Text>
+    <Text Include="input\input_100_10.000000_10.000000.txt">
+      <Filter>Fichiers de ressources\input</Filter>
+    </Text>
+    <Text Include="input\input_200_10.000000_10.000000.txt">
+      <Filter>Fichiers de ressources\input</Filter>
+    </Text>
+    <Text Include="input\input_500_10.000000_10.000000.txt">
+      <Filter>Fichiers de ressources\input</Filter>
+    </Text>
+    <Text Include="input\input_1000_10.000000_10.000000.txt">
+      <Filter>Fichiers de ressources\input</Filter>
+    </Text>
+    <Text Include="input\input_10000_100.000000_100.000000.txt">
+      <Filter>Fichiers de ressources\input</Filter>
+    </Text>
+    <Text Include="output\output_input_5_10.000000_10.000000.txt">
+      <Filter>Fichiers de ressources\output</Filter>
+    </Text>
+    <Text Include="output\output_input_10_10.000000_10.000000.txt">
+      <Filter>Fichiers de ressources\output</Filter>
+    </Text>
+    <Text Include="output\output_input_100_10.000000_10.000000.txt">
+      <Filter>Fichiers de ressources\output</Filter>
+    </Text>
+    <Text Include="output\output_input_200_10.000000_10.000000.txt">
+      <Filter>Fichiers de ressources\output</Filter>
+    </Text>
+    <Text Include="output\output_input_500_10.000000_10.000000.txt">
+      <Filter>Fichiers de ressources\output</Filter>
+    </Text>
+    <Text Include="output\output_input_1000_10.000000_10.000000.txt">
+      <Filter>Fichiers de ressources\output</Filter>
+    </Text>
+    <Text Include="output\output_input_10000_100.000000_100.000000.txt">
+      <Filter>Fichiers de ressources\output</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="img\input_5_10.000000_10.000000.png">
+      <Filter>Fichiers de ressources\img</Filter>
+    </Image>
+    <Image Include="img\input_10_10.000000_10.000000.png">
+      <Filter>Fichiers de ressources\img</Filter>
+    </Image>
+    <Image Include="img\input_100_10.000000_10.000000.png">
+      <Filter>Fichiers de ressources\img</Filter>
+    </Image>
+    <Image Include="img\input_200_10.000000_10.000000.png">
+      <Filter>Fichiers de ressources\img</Filter>
+    </Image>
+    <Image Include="img\input_500_10.000000_10.000000.png">
+      <Filter>Fichiers de ressources\img</Filter>
+    </Image>
+    <Image Include="img\input_1000_10.000000_10.000000.png">
+      <Filter>Fichiers de ressources\img</Filter>
+    </Image>
+    <Image Include="img\input_10000_100.000000_100.000000.png">
+      <Filter>Fichiers de ressources\img</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
