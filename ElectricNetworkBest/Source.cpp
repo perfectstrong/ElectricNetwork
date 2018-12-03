@@ -2,14 +2,15 @@
 #include <fstream>
 #include <cmath>
 #include <cstdlib>
-#include <ctime>
 #include <string>
 #include <algorithm>
+#include <ctime>
+#include <chrono>
 
-#define BATCH 5000 //max entries to write each time
 #define NMAX 10000 //max number of nodes
 
 using namespace std;
+using namespace std::chrono;
 
 struct Point {
     double x;
@@ -123,14 +124,27 @@ void growNetwork() {
     }
 }
 
+high_resolution_clock::time_point now() {
+    return high_resolution_clock::now();
+}
+
 int main() {
+    high_resolution_clock::time_point start, finish;
+    duration<double, std::milli> timespan;
+
     string filename = "";
     cout << "input = ";
     getline(cin, filename);
     addVertex(0);
     readInputPoints(filename);
     calculateDist2();
+
+    start = now();
     growNetwork();
+    finish = now();
+    timespan = finish - start;
+    cout << "Time = " << timespan.count() << " ms" << endl;
     writeOut("output_" + filename);
+    getchar();
     return 0;
 }

@@ -1,7 +1,7 @@
 clear;
 
-fin = 'input_1000_10.000000_10.000000.txt';
-fout = 'output_input_1000_10.000000_10.000000.txt';
+fin = 'input/input_10000_10.000000_10.000000.txt';
+fout = 'output/output_input_10000_10.000000_10.000000.txt';
 
 % read input
 f=fopen(fin);
